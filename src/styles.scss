@@ -1,0 +1,157 @@
+.App {
+  font-family: sans-serif;
+}
+.Clock_KRSK, .Clock_MSK {
+  display: inline-block;
+  margin-right: -80px;
+  margin-left: -25px;
+}
+select {
+    font-size: 20px;
+    font-weight: 600;
+    color: #292727;
+    border-radius: 5px;
+    padding: 2px;;
+  }
+.clock {
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background: #fff;
+  .digital-clock {
+    padding: 20px;
+  }
+  .analog-clock {
+    width: 200px;
+    height: 200px;
+    border: solid 2px #000;
+    border-radius: 50%;
+    position: relative;
+    background: #ccc;
+    .dial {
+      position: absolute;
+      left: 50%;
+      width: 50px;
+      transform-origin: bottom left;
+      &.seconds {
+        border-left:solid 1px #fb6060;
+        width: 35px;
+        height: 95px;
+        top: 5px;
+      }
+      &.minutes {
+        border-left:solid 1.5px #228092;
+        width: 35px;
+        height: 80px;
+        top: 20px;
+      }
+      &.hours {
+        width: 35px;
+        height: 40px;
+        top: 59px;
+        border-left:solid 1.5px #228092;
+      }
+      &.strokes12 {
+        width: 35px;
+        height: 15px;
+        top: 1px;
+        border-left:solid 1px #dc1515;
+      }
+      &.strokes9 {
+        width: 35px;
+        height: 15px;
+        top: 85px;
+        border-left:solid 1px #dc1515;
+        left: 16px;
+      }
+      &.strokes6 {
+        width: 35px;
+        height: 15px;
+        top: 169px;
+        border-left:solid 1px #dc1515;
+      }
+      &.strokes3 {
+        width: 35px;
+        height: 15px;
+        top: 85px;
+        border-left:solid 1px #dc1515;
+        left: 184px;
+      }
+      &.strokes1 {
+        width: 35px;
+        height: 15px;
+        top: 12px;
+        border-left:solid 1px #228092;
+        left: 142px;
+      }
+      &.strokes2 {
+        width: 35px;
+        height: 15px;
+        top: 43px;
+        border-left:solid 1px #228092;
+        left: 173px;
+      }
+      &.strokes4 {
+        width: 35px;
+        height: 15px;
+        top: 127px;
+        border-left:solid 1px #228092;
+        left: 173px;
+      }
+      &.strokes5 {
+        width: 35px;
+        height: 15px;
+        top: 158px;
+        border-left:solid 1px #228092;
+        left: 142px;
+      }
+      &.strokes7 {
+        width: 35px;
+        height: 15px;
+        top: 158px;
+        border-left:solid 1px #228092;
+        left: 58px;
+      }
+      &.strokes8 {
+        width: 35px;
+        height: 15px;
+        top: 127px;
+        border-left:solid 1px #228092;
+        left: 27px;
+      }
+      &.strokes10 {
+        width: 35px;
+        height: 15px;
+        top: 43px;
+        border-left:solid 1px #228092;
+        left: 27px;
+      }
+      &.strokes11 {
+        width: 35px;
+        height: 15px;
+        top: 12px;
+        border-left:solid 1px #228092;
+        left: 58px;
+      }
+      
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 10px;
+      height: 10px;
+      background: #3a5458;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      border-radius: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 3;
+    }
+  }
+}
+
+
