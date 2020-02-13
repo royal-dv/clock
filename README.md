@@ -15,10 +15,10 @@
 <b>Установка модулей:</b>
 <br>
 <ol>
-      <li>npm install webpack webpack-cli --save-dev</li>
-      <li>npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev</li>
-      <li>npm install css-loader style-loader sass-loader html-loader url-loader--save-dev</li>
-      <li>npm install html-webpack-plugin --save-dev</li>
-      <li>npm install webpack-dev-server --save-dev</li>
-      <li>npm start</li>
+<li>npm install webpack webpack-cli --save-dev</li>
+<li>npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev</li>
+<li>npm install css-loader style-loader sass-loader html-loader url-loader--save-dev</li>
+<li>npm install html-webpack-plugin --save-dev</li>
+<li>npm install webpack-dev-server --save-dev</li>
+<li>npm start</li>
 </ol>
